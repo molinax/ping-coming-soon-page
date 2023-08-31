@@ -1,6 +1,6 @@
 export const InputForm = ({ type, placeholder, isRequired, value, setValue, notifyError }) => {
   return (
-    <div role="group-input" className="xs:flex-initial xs:w-3/4">
+    <div className="xs:flex-initial xs:w-3/4">
 
       <p className={`text-xs pl-3 text-light-red transition-opacity duration-300 ${notifyError === "" ? "opacity-0 h-4" : "opacity-100"}`}>
         {notifyError}
